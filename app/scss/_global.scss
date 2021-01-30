@@ -51,3 +51,15 @@ body{
 	margin-right: 13px;
 	display: inline-block;
 }
+.angle-right{
+	position: relative;
+	padding-left: 15px;
+	&::before{
+		content: "\f105";
+		position: absolute;
+		font-family: 'icomoon';
+		font-size: 14px;
+		left: 0;
+		color: $green;
+	}
+}
